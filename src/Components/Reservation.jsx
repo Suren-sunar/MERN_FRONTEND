@@ -26,7 +26,7 @@ export const Reservation = () => {
           withCredentials: true,
         }
       );
-      toast.success(data.message);
+      toast.success(Reservation Send Successfully);
       setFirstName("");
       setLastName("");
       setEmail("");
